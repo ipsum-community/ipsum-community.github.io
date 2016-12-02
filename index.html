@@ -2,25 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <title>All Ipsum - One place, all texts</title>
-    <script>
-
-        var data = null;
-
-        var xhr = new XMLHttpRequest();
-        xhr.withCredentials = true;
-
-        xhr.addEventListener("readystatechange", function () {
-            if (this.readyState === 4) {
-                console.log(this.responseText);
-            }
-        });
-
-        xhr.open("GET", "https://api.github.com/repos/allipsum/allipsum.github.io/contents/db");
-        xhr.setRequestHeader("cache-control", "no-cache");
-        xhr.setRequestHeader("postman-token", "c379222f-f2c8-4628-e0b7-905b7d8a6d93");
-
-        xhr.send(data);
-    </script>
+    <script src="db/config.js"></script>
+    <script src="db/config.js"></script>
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
 Olá mundo.
