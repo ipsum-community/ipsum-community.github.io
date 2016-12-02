@@ -3,25 +3,33 @@ window.onload = function() {
 };
 
 function load_ipsum_list() {
-    for(i in ipsum_list) {
-        ipsum_package(ipsum_list[i]);
+    for(ipsum_name in ipsum_list) {
+        get_ipsum(ipsum_name);
     }
 }
+function get_ipsum(ipsum_name)
+{
+    ipsum_list[ipsum_name] = localStorage.getItem(ipsum_name);
 
-function ipsum_package(ipsum) {
+    if(!ipsum_list[ipsum_name]) {
+        ipsum_package(ipsum_name);
+    }else{
+        ipsum_list[ipsum_name] = JSON.parse(ipsum_list[ipsum_name]);
+    }
+}
+function ipsum_package(ipsum_name) {
     var data = null;
 
     var xhr = new XMLHttpRequest();
-    xhr.withCredentials = true;
 
     xhr.addEventListener('readystatechange', function () {
-        if (this.readyState === 4) {''
-            console.log(this.responseText);
+        if (this.readyState === 4) {
+            localStorage.setItem(ipsum_name, this.responseText);
+            ipsum_list[ipsum_name] = JSON.parse(this.responseText);
         }
     });
 
-    xhr.open('GET', 'db/' + ipsum + '/package.json');
+    xhr.open('GET', 'db/' + ipsum_name + '/package.json');
     xhr.setRequestHeader('cache-control', 'no-cache');
-
     xhr.send(data);
 }

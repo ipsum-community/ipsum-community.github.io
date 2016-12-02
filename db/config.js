@@ -1,4 +1,4 @@
-var ipsum_list = [
-    "dilmesipsum.com.br",
-    "lipsum.com",
-]
+var ipsum_list = {
+    "dilmesipsum.com.br" : {},
+    "lipsum.com" : {},
+}
