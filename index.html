@@ -16,6 +16,12 @@
 
         xhr.open("GET", "https://api.github.com/repos/allipsum/allipsum.github.io/contents/db");
         xhr.setRequestHeader("cache-control", "no-cache");
+        xhr.setRequestHeader("cache-control", "no-cache");
+
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.setRequestHeader('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
+        xhr.setRequestHeader('Access-Control-Allow-Headers', 'accept, content-type, x-parse-application-id, x-parse-rest-api-key, x-parse-session-token');
+
         xhr.send(data);
     </script>
 </head>
