@@ -24,12 +24,35 @@ function ipsum_package(ipsum_name) {
 
     xhr.addEventListener('readystatechange', function () {
         if (this.readyState === 4) {
-            localStorage.setItem(ipsum_name, this.responseText);
-            ipsum_list[ipsum_name] = JSON.parse(this.responseText);
+            var package = this.responseText;
+            package = JSON.parse(package);
+            package = get_language(package);
+            localStorage.setItem(ipsum_name, JSON.stringify(package));
+            ipsum_list[ipsum_name] = package;
         }
     });
 
     xhr.open('GET', 'db/' + ipsum_name + '/package.json');
     xhr.setRequestHeader('cache-control', 'no-cache');
     xhr.send(data);
+}
+function get_language(package)
+{
+    package.lang = new Object();
+
+    for(contributor_name in package.contributor) {
+        var contributor = package.contributor[contributor_name];
+
+        for(lang in contributor) {
+            var count = contributor[lang];
+
+            for (j = 1; j <= count; j++) {
+                if(!package.lang[lang]) {
+                    package.lang[lang] = new Object();
+                }
+                package.lang[lang][contributor_name + j] = contributor_name + j;
+            }
+        }
+    }
+    return package;
 }

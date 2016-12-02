@@ -2,10 +2,12 @@
   "name": "Dilmês Ipsum",
   "description": "Dilmes Ipsum, mais parágrafos, mais rapidez e mais asneiras da nossa presidentA!",
   "site": "http://www.dilmesipsum.com.br/",
-  "author": "@sena",
+  "author": "sena",
   "collaborative" : "true",
   "version": "1.0.0",
-  "lang" : {
-    "pt_br" : "Português - Brasil"
+  "contributor": {
+    "sena": {
+      "pt_br" : 8
+    }
   }
 }
