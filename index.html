@@ -2,6 +2,22 @@
 <head>
     <meta charset="UTF-8">
     <title>All Ipsum - One place, all texts</title>
+    <script>
+        var data = null;
+
+        var xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+
+        xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === 4) {
+                console.log(this.responseText);
+            }
+        });
+
+        xhr.open("GET", "https://api.github.com/repos/allipsum/allipsum.github.io/contents/db");
+        xhr.setRequestHeader("cache-control", "no-cache");
+        xhr.send(data);
+    </script>
 </head>
 <body>
 Olá mundo.
