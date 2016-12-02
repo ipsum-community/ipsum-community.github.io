@@ -9,7 +9,7 @@ function load_ipsum_list() {
 }
 function get_ipsum(ipsum_name)
 {
-    ipsum_list[ipsum_name] = localStorage.getItem(ipsum_name);
+    ipsum_list[ipsum_name] = window.sessionStorage.getItem(ipsum_name);
 
     if(!ipsum_list[ipsum_name]) {
         ipsum_package(ipsum_name);
@@ -27,7 +27,7 @@ function ipsum_package(ipsum_name) {
             var package = this.responseText;
             package = JSON.parse(package);
             package = get_language(package);
-            localStorage.setItem(ipsum_name, JSON.stringify(package));
+            window.sessionStorage.setItem(ipsum_name, JSON.stringify(package));
             ipsum_list[ipsum_name] = package;
         }
     });
