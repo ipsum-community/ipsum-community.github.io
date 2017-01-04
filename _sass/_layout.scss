@@ -1,23 +1,24 @@
 h1{
-    color:red;
+    color: $default;
 }
-.navbar-transparent {
-    background: transparent;
-    .navbar-header{
-        .navbar-brand{
-            #logo{
-                width: 250px;
-            }
-        }
+
+a{
+    color: $default;
+    text-decoration: none;
+    &:hover{
+        color: $default-dark !important;
+        text-decoration: none;
     }
 }
 
-.logo{
-    width: 55px;
-    margin-bottom: 15px;
-}
-
-#contribute-text{
-    font-weight: bold;
-    margin-right: 10px;
+.container-logo{
+    margin: 0px 15px 15px 15px;
+    
+    #contribute-text{
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .logo{
+        width: 40px;
+    }
 }

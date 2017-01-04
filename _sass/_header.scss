@@ -1,0 +1,19 @@
+.navbar-transparent {
+    padding: 10px;
+    background: transparent;
+    box-shadow:         0px 8px 15px 0px rgba(50, 50, 50, 0.30);
+    -moz-box-shadow:    0px 8px 15px 0px rgba(50, 50, 50, 0.30);
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(50, 50, 50, 0.30);
+
+    .navbar-header{
+        #logo{
+            margin: 10px;
+            width: 250px;
+     
+        }
+    }
+    .nav-btns{
+        margin-top: 15px;
+    }
+    
+}
