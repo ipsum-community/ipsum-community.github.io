@@ -1,0 +1,23 @@
+h1{
+    color:red;
+}
+.navbar-transparent {
+    background: transparent;
+    .navbar-header{
+        .navbar-brand{
+            #logo{
+                width: 250px;
+            }
+        }
+    }
+}
+
+.logo{
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+#contribute-text{
+    font-weight: bold;
+    margin-right: 10px;
+}
