@@ -33,7 +33,7 @@ function ipsum_package(ipsum_name) {
         }
     });
 
-    xhr.open('GET', 'db/' + ipsum_name + '/package.json');
+    xhr.open('GET', '/db/' + ipsum_name + '/package.json');
     xhr.setRequestHeader('cache-control', 'no-cache');
     xhr.send(data);
 }
