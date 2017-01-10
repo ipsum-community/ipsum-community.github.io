@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/allipsum/allipsum.github.io/issues"
   },
-  "homepage": "https://github.com/allipsum/allipsum.github.io#readme"
+  "homepage": "https://github.com/allipsum/allipsum.github.io#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
 }
