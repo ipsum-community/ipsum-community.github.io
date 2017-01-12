@@ -1,6 +1,7 @@
 ---
 layout:
 permalink: '/json/list.json'
+redirect_from: "/json/"
 ---
 {% assign i=0 %}
 {
