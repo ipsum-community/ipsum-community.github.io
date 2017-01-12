@@ -34,3 +34,7 @@ exclude:
   - Gemfile.lock
 sass:
   style: compressed
+
+collections:
+  ipsum:
+    output: false

@@ -1,0 +1,15 @@
+---
+layout:
+permalink: '/json/list.json'
+---
+{% assign i=0 %}
+{
+{% for ipsum in site.ipsum %} {% assign i=i | plus:1 %}
+    {% if i > 1 %}
+        ,
+    {% endif %}
+    "{{ipsum.key}}": [{
+        "title": "{{ipsum.title}}",
+        "url": "{{site.url}}/json/{{ipsum.key}}.json"
+    }]
+{% endfor %} }
