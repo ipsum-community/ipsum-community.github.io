@@ -3,14 +3,24 @@ layout:
 permalink: '/json/list.json'
 redirect_from: "/json/"
 ---
-{% assign i=0 %}
 {
-{% for ipsum in site.ipsum %} {% assign i=i | plus:1 %}
+{% assign i=0 %}{% for ipsum in site.ipsum %} {% assign i=i | plus:1 %}
     {% if i > 1 %}
         ,
     {% endif %}
     "{{ipsum.key}}": [{
         "title": "{{ipsum.title}}",
-        "url": "{{site.url}}/json/{{ipsum.key}}.json"
+        "url": "{{site.url}}/json/{{ipsum.key}}.json",
+
+  "language": [
+    {
+        {% assign j=0 %}{% for language in ipsum.language %} {% assign j=j | plus:1 %}
+        {% if j > 1 %}
+            ,
+        {% endif %}
+            "name": "{{language.name}}"
+        {% endfor %}
+    }
+  ]
     }]
 {% endfor %} }
