@@ -1,12 +1,14 @@
 ---
-title: dilmesipsum.com.br
+layout: ipsumpage
+
+title: dilmesipsum
 key: dilma
 description: "Dilmes Ipsum, mais parágrafos, mais rapidez e mais asneiras da nossa presidentA!"
 site: "http://www.dilmesipsum.com.br/"
 author: sena
 collaborative: true
 language:
-  - name: Portugês
+  - name: Português
     text:
         - "Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses."
         - "No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar."

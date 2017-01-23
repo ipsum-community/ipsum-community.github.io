@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>All Ipsum - One place, all texts</title>
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Lato" rel="stylesheet">
+    <script src="/db/config.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+</head>
+
+<body>
+{% include header.html %}
+
+<div class="container">
+    <div id="ipsum-layout">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="title">{{ page.title }}</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="description">{{ page.description }}</div>
+            </div>
+        </div>
+
+        <section id="generator-container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div id="language-input-container" class="hide">
+                        <span>Language:</span>
+                        <select>
+                            {% for language in page.language %}
+                            <option value="{{language.name}}">
+                                {{ language.name }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="btn-group pull-right" role="group">
+                        <div class="btn btn-default">
+                            Chars: <input class="number-input" type="number" min="1" value="">
+                        </div>
+                        <div class="btn btn-default">
+                            Words: <input class="number-input" type="number" min="1" value="">
+                        </div>
+
+                        <div class="btn btn-default">
+                            Paragraphs: <input class="number-input" type="number" min="1" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="phrase-container">
+                        {% for language in page.language %}
+                        {% for text in language.text %}
+                        <p>{{ text }}</p>
+                        {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+
+        </script>
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>

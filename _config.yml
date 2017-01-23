@@ -38,4 +38,5 @@ sass:
 
 collections:
   ipsum:
-    output: false
+    output: true
+    permalink: /:path

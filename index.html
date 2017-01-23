@@ -1,7 +1,18 @@
---- 
-layout: home 
 ---
-<script>
-get_ipsum('lipsum.com');
+layout: home
+---
 
-</script>
+<div class="row">
+    <div class="col-lg-10">
+
+    </div>
+    <div class="col-lg-2">
+        <div class="list-group">
+            {% for ipsum in site.ipsum %}
+            <a href="{{ipsum.url}}" class="list-group-item">
+                <span class="ipsum-name">{{ ipsum.title }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
