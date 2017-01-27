@@ -1,4 +1,6 @@
 ---
+layout: ipsumpage
+
 title: Zombie Ipsum
 key: zombieipsum
 description: "Frightful filler for your damned designs. Use as substitute for lorem ipsum for your most gruesome graphics. Sprinkle liberally with extra brains."
