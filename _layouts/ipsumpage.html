@@ -5,11 +5,8 @@
     <title>All Ipsum - One place, all texts</title>
     <link href="https://fonts.googleapis.com/css?family=Chewy|Lato" rel="stylesheet">
     <script type="text/javascript">window.store = {{ page.language | jsonify }} </script>
-    <script src="/assets/js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-
 </head>
-
 <body>
 {% include header.html %}
 
@@ -51,19 +48,16 @@
                         </div>
 
                         <div class="btn btn-default">
-                            Paragraphs: <input class="number-input" type="number" min="1" value="1">
+                            Paragraphs: <input id="paragraph-number-input" class="number-input" type="number" min="1"
+                                               value="1">
                         </div>
+                        <button id="btn-generate" class="btn btn-success">Lets Go!</button>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div id="phrase-container">
-                        {% for language in page.language %}
-                        {% for text in language.text %}
-                        <p>{{ text }}</p>
-                        {% endfor %}
-                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -73,12 +67,11 @@
                 </div>
             </div>
         </section>
-
-        <script>
-
-        </script>
     </div>
 </div>
 {% include footer.html %}
+
+<script src="/assets/js/IpsumGenerator.js"></script>
+<script src="/assets/js/IpsumListener.js"></script>
 </body>
 </html>
