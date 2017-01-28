@@ -1,9 +1,7 @@
 "use strict"
-var IpsumGenerator = (function (document, window) {
+var IpsumGenerator = (function (_doc, _window) {
 
-    var _doc = document,
-        _window = window,
-        _container = _doc.getElementById('phrase-container');
+    var _container = _doc.getElementById('phrase-container');
 
     function clearContainer() {
         _container.innerHTML = '';
@@ -34,7 +32,7 @@ var IpsumGenerator = (function (document, window) {
             numberOfParagToMakeOne = getRandomInt(2, 10);
 
             for (j = 0; j < numberOfParagToMakeOne; j++) {
-                paragraph += fetchRandom(window.store[0].text);
+                paragraph += fetchRandom(_window.store[0].text);
             }
             addToContainer('<p>' + paragraph + '</p>');
         }
