@@ -13,7 +13,7 @@ function loadParagraphs(limit) {
         var p = ''
 
         for (j = 0; j < pLimit; j++) {
-            p = p + fetchRandom(window.store[0].text);
+            p = p + ' ' + fetchRandom(window.store[0].text);
         }
         container.innerHTML = container.innerHTML + '<p>' + p + '</p>';
     }
