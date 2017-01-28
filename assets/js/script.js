@@ -9,11 +9,11 @@ function loadParagraphs(limit) {
     container.innerHTML = '';
 
     for (i = 0; i < limit; i++) {
-        var pLimit = getRandomInt(2, 20);
+        var pLimit = getRandomInt(2, 10);
         var p = ''
 
         for (j = 0; j < pLimit; j++) {
-            p = p + fetchRandom(window.store[0].text);
+            p = p + ' ' + fetchRandom(window.store[0].text);
         }
         container.innerHTML = container.innerHTML + '<p>' + p + '</p>';
     }

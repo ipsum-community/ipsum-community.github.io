@@ -11,7 +11,7 @@ collaborative: true
 language:
   - name: latin
     text:
-        - "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
-        - "Quisque lobortis tincidunt tellus, sed tristique nunc commodo sit amet"
-        - "Ut scelerisque feugiat tellus, vitae placerat dolor feugiat vitae"
+        - "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+        - "Quisque lobortis tincidunt tellus, sed tristique nunc commodo sit amet."
+        - "Ut scelerisque feugiat tellus, vitae placerat dolor feugiat vitae."
 ---
