@@ -11,6 +11,10 @@ var IpsumGenerator = (function (_doc, _window) {
         _container.innerHTML += paragraph;
     }
 
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     function fetchRandom(obj) {
         var temp_key, keys = [];
         for (temp_key in obj) {
@@ -34,7 +38,8 @@ var IpsumGenerator = (function (_doc, _window) {
             for (j = 0; j < numberOfParagToMakeOne; j++) {
                 paragraph += ' ' + fetchRandom(_window.store[0].text);
             }
-            addToContainer('<p>' + paragraph + '</p>');
+
+            addToContainer('<p>' + capitalizeFirstLetter(paragraph) + '</p>');
         }
     }
 
