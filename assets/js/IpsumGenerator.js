@@ -32,7 +32,7 @@ var IpsumGenerator = (function (_doc, _window) {
             numberOfParagToMakeOne = getRandomInt(2, 10);
 
             for (j = 0; j < numberOfParagToMakeOne; j++) {
-                paragraph += fetchRandom(_window.store[0].text);
+                paragraph += ' ' + fetchRandom(_window.store[0].text);
             }
             addToContainer('<p>' + paragraph + '</p>');
         }
