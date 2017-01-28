@@ -31,7 +31,7 @@ var IpsumGenerator = (function (document, window) {
         clearContainer();
         for (i = 0; i < numberOfParagraphs; i++) {
             paragraph = '';
-            numberOfParagToMakeOne = getRandomInt(2, 20);
+            numberOfParagToMakeOne = getRandomInt(2, 10);
 
             for (j = 0; j < numberOfParagToMakeOne; j++) {
                 paragraph += fetchRandom(window.store[0].text);
