@@ -20,10 +20,10 @@ var IpsumGenerator = (function (_doc, _window, _util) {
             numberOfParagToMakeOne = _util.randomNumberBetween(2, 10);
 
             for (j = 0; j < numberOfParagToMakeOne; j++) {
-                paragraph += ' ' + _util.fetchRandom(_window.store[0].text);
+                paragraph += ' ' + _util.capitalizeFirstLetter(_util.fetchRandom(_window.store[0].text));
             }
 
-            addToContainer('<p>' + _util.capitalizeFirstLetter(paragraph) + '</p>');
+            addToContainer('<p>' + paragraph + '</p>');
         }
     }
 
