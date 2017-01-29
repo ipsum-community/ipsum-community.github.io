@@ -1,5 +1,5 @@
 "use strict"
-var Util = (function (_math) {
+var Util = (function (_math, _doc) {
 
     return {
         capitalizeFirstLetter: function (string) {
@@ -15,8 +15,15 @@ var Util = (function (_math) {
             }
             return obj[keys[_math.floor(_math.random() * keys.length)]];
         },
-        countWords: function(str) {
+        countWords: function (str) {
             return str.trim().split(/\s+/).length;
+        },
+        selectAndCopy: function (selector) {
+            var cutTextarea = typeof selector == 'string' ? _doc.querySelector(selector) : selector;
+
+            cutTextarea.select();
+
+            return _doc.execCommand('copy');
         }
     }
-})(Math);
+})(Math, document);

@@ -4,11 +4,11 @@ var IpsumGenerator = (function (_doc, _window, _util) {
     var _container = _doc.getElementById('phrase-container');
 
     function clearContainer() {
-        _container.innerHTML = '';
+        _container.value = '';
     }
 
     function addToContainer(paragraph) {
-        _container.innerHTML += paragraph;
+        _container.value += paragraph;
     }
 
     function generateIpsum(numberOfParagraphs) {
@@ -26,8 +26,9 @@ var IpsumGenerator = (function (_doc, _window, _util) {
                 words = _util.countWords(paragraph);
             }
 
-            addToContainer('<p>' + paragraph + '</p>');
+            addToContainer(paragraph + '\n\n');
         }
+        _util.selectAndCopy(_container)
     }
 
     return {
