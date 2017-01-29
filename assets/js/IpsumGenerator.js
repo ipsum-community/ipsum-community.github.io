@@ -12,15 +12,18 @@ var IpsumGenerator = (function (_doc, _window, _util) {
     }
 
     function generateIpsum(numberOfParagraphs) {
-        var i, j, numberOfParagToMakeOne, paragraph;
+        var i, words, numberOfWordInParag, paragraph;
 
         clearContainer();
         for (i = 0; i < numberOfParagraphs; i++) {
             paragraph = '';
-            numberOfParagToMakeOne = _util.randomNumberBetween(2, 10);
+            words = 0;
 
-            for (j = 0; j < numberOfParagToMakeOne; j++) {
+            numberOfWordInParag = _util.randomNumberBetween(10, 40);
+
+            while(words < numberOfWordInParag) {
                 paragraph += ' ' + _util.capitalizeFirstLetter(_util.fetchRandom(_window.store[0].text));
+                words = _util.countWords(paragraph);
             }
 
             addToContainer('<p>' + paragraph + '</p>');

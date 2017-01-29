@@ -14,6 +14,9 @@ var Util = (function (_math) {
                 keys.push(temp_key);
             }
             return obj[keys[_math.floor(_math.random() * keys.length)]];
+        },
+        countWords: function(str) {
+            return str.trim().split(/\s+/).length;
         }
     }
 })(Math);
