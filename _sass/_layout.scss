@@ -1,28 +1,47 @@
-h1{
-    color: $default;
+
+h1 {
+  color: $default;
 }
 
-a{
-    color: $default;
+a {
+  color: $default;
+  text-decoration: none;
+  &:hover {
+    color: $default-dark !important;
     text-decoration: none;
-    &:hover{
-        color: $default-dark !important;
-        text-decoration: none;
-    }
+  }
 }
 
-.container-logo{
-    margin: 0px 15px 15px 15px;
-    
-    #contribute-text{
-        font-weight: bold;
-        margin-right: 10px;
-    }
-    .logo{
-        width: 40px;
-    }
+.ipsum-label {
+  color: $default;
+  background-color: $default-gray-bootstrap;
+  padding: 10px 15px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 100px;
+
+  &:hover {
+    border: 2px solid $default;
+    margin: 8px;
+  }
 }
 
-.ipsum-name{
-    text-transform: capitalize;
+.label-md {
+  font-size: 1.2em;
+}
+
+.container-logo {
+  margin: 0px 15px 15px 15px;
+
+  #contribute-text {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .logo {
+    width: 40px;
+  }
+}
+
+.ipsum-name {
+  text-transform: capitalize;
 }

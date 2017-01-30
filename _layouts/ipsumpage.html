@@ -11,64 +11,72 @@
 {% include header.html %}
 
 <div class="container">
-    <div id="ipsum-layout">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="ipsum-layout">
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div id="title">{{ page.title }}</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <div id="description">{{ page.description }}</div>
-            </div>
-        </div>
-
-        <section id="generator-container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <div id="language-input-container" class="hide">
-                        <span>Language:</span>
-                        <select>
-                            {% for language in page.language %}
-                            <option value="{{language.name}}">
-                                {{ language.name }}
-                            </option>
-                            {% endfor %}
-                        </select>
-                    </div>
-                    <div class="btn-group pull-right" role="group">
-                        <form action="" id="form-generate">
-                            <!--
-                            <div class="btn btn-default">
-                                Chars: <input class="number-input" type="number" min="1" value="">
-                            </div>
-                            <div class="btn btn-default">
-                                Words: <input class="number-input" type="number" min="1" value="">
-                            </div>
-                            -->
-                            <div class="btn btn-default">
-                                Paragraphs: <input id="paragraph-number-input" class="number-input" type="number" min="1"
-                                                   value="4">
-                            </div>
-                            <button type="submit" id="btn-generate" class="btn btn-success">Lets Go!</button>
-                        </form>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="title" style="color: {{ page.titleColor }} ">{{ page.title }}</div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <textarea class="form-control" id="phrase-container" cols="30" rows="10"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
 
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="description" style="color: {{ page.descColor }} ">{{ page.description }}</div>
+                    </div>
                 </div>
+
+                <section id="generator-container">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <div id="language-input-container" class="hide">
+                                <span>Language:</span>
+                                <select>
+                                    {% for language in page.language %}
+                                    <option value="{{ language.name }}">
+                                        {{ language.name }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="btn-group pull-right" role="group">
+                                <form action="" id="form-generate">
+                                    <!--
+                                    <div class="btn btn-default">
+                                        Chars: <input class="number-input" type="number" min="1" value="">
+                                    </div>
+                                    <div class="btn btn-default">
+                                        Words: <input class="number-input" type="number" min="1" value="">
+                                    </div>
+                                    -->
+                                    <div class="btn btn-default">
+                                        Paragraphs: <input id="paragraph-number-input" class="number-input"
+                                                           type="number" min="1"
+                                                           value="4">
+                                    </div>
+                                    <button type="submit" id="btn-generate" class="btn"
+                                            style="background-color: {{ page.genBtnBgColor }}; color: {{ page.genBtnTextColor }}">
+                                        {{ page.genBtnText | default: "Lets Go!"}}
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <textarea class="form-control" id="phrase-container" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
     </div>
 </div>
 {% include footer.html %}

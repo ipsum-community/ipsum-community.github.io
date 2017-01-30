@@ -6,6 +6,18 @@ key: arnoldschwarzenegger
 description: "Up to ten paragraphs of Arnold Schwarzenegger quotes are at your disposal with the Arnold Ipsum generator. It's not the Mr. Universe of the ipsum generators, but some of the quotes are funny as hell if you imagine Mr. Schwarzenegger reading them. To be clear, using this text generator won't make you stronger and you may terminate some of your clients with it. It also won't help you become an elected official or give you abs of steel."
 author: sena
 collaborative: true
+
+
+titleColor: "#EE3829"
+descColor: "#afb3c9"
+genBtnTextColor: "#000000"
+genBtnBgColor: "#F3F7F8"
+genBtnText: "Lets Do It!"
+labelTextColor: "#EE3829"
+labelBgColor: "#F3F7F8"
+labelBorderColor: "#d62020"
+
+
 language:
   - name: English
     text:
