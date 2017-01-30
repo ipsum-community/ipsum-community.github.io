@@ -1,11 +1,13 @@
 #ipsum-layout {
-  font-family: 'Lato', sans-serif;
+  //font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 
   #title {
-    font-family: 'Chewy', cursive;
+    //font-family: 'Chewy', cursive;
+    font-family: 'Patua One', cursive;
     color: $default;
     font-size: 5em;
-    font-weight: bold;
+    //font-weight: bold;
     text-transform: capitalize;
   }
   #description {
@@ -44,11 +46,12 @@
       font-size: 1.1em;
       border: 1px solid #8b9899;
 
+      resize: none;
       &::selection {
-        background: $gray-light-shine;
+        background: $sowhite;
       }
       &::-moz-selection {
-        background: $gray-light-shine;
+        background: $sowhite;
       }
     }
   }
