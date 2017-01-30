@@ -100,4 +100,5 @@ text:
 - "Mais um pastel de carne aí também?"
 - "usuários tsc tsc."
 - "Mas eu já tinha arrumado isso."
+- "Não sei, vou procurar no stackoverflow."
 ---
