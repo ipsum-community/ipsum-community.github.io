@@ -10,9 +10,11 @@ collaborative: true
 
 titleColor: "#5ECAED"
 descColor: "#3B5998"
-genBtnTextColor: "#ffffff"
+
 genBtnBgColor: "#5ECAED"
 genBtnText: "É rapidinho!"
+genBtnTextColor: "#ffffff"
+
 labelTextColor: "#ffffff"
 labelBgColor: "#5ECAED"
 labelBorderColor: "#3B5998"

@@ -14,17 +14,17 @@
 
   #generator-container {
     margin: 15px 0px;
-    .btn-group{
+    .btn-group {
       font-size: 1.5em;
 
     }
-    #language-input-container{
+    #language-input-container {
       clear: both;
-      select{
+      select {
         float: right;
       }
     }
-    .number-input{
+    .number-input {
       width: 70px;
       padding: 5px;
       border-radius: 5px;
@@ -43,10 +43,17 @@
       color: #282828;
       font-size: 1.1em;
       border: 1px solid #8b9899;
+
+      &::selection {
+        background: $gray-light-shine;
+      }
+      &::-moz-selection {
+        background: $gray-light-shine;
+      }
     }
   }
 }
 
-#phrase-container[readonly]{
+#phrase-container[readonly] {
   background-color: transparent;
 }
