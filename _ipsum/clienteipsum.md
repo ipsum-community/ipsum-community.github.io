@@ -52,4 +52,7 @@ text:
 - "Ta faltando aquele Tchan!"
 - "To avaliando uns orçamentos, mas já gostei muito do seu..."
 - "Sempre funcionou deste jeito."
+- "Vai ser igual do Wix."
+- "Tudo isso pra deixar bonito no celular ?"
+- "Estou sofrendo com inadimplência dos meus clientes, então peço um pouco de flexibilidade quanto ao seu pagamento."
 ---
