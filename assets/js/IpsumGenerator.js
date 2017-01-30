@@ -22,7 +22,7 @@ var IpsumGenerator = (function (_doc, _window, _util) {
             numberOfWordInParag = _util.randomNumberBetween(10, 40);
 
             while(words < numberOfWordInParag) {
-                paragraph += ' ' + _util.capitalizeFirstLetter(_util.fetchRandom(_window.store[0].text));
+                paragraph += ' ' + _util.capitalizeFirstLetter(_util.fetchRandom(_window.store));
                 words = _util.countWords(paragraph);
             }
 
