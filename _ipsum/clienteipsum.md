@@ -45,4 +45,10 @@ language:
     - "Aumenta aqui e diminui ali."
     - "Se vocês virarem algumas noites dá para cumprir o prazo né?"
     - "Boa tarde! Não esquece de fazer aquela alteração que te pedi."
+    - "Ok, eu entro em contato."
+    - "Está aprovado, mas preciso que faça algumas alterações antes."
+    - "Eu queria algo fora da caixa, disruptivo, moderno e arrojado."
+    - "É pra ontem, eim? hahahaha brincadeira. Mas é pra ontem mesmo."
+    - "Achamos o preço um pouco fora do nosso orçamento."
+    - "Ta faltando aquele Tchan!"
 ---
