@@ -8,6 +8,9 @@ site: "http://zombieipsum.com/"
 author: sena
 collaborative: true
 language: English
+
+genBtnText: "Cerebro!"
+
 text:
 - "Zombies reversus ab inferno, nam malum cerebro."
 - "De carne animata corpora quaeritis."

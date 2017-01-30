@@ -8,6 +8,9 @@ site: "http://www.dilmesipsum.com.br/"
 author: sena
 collaborative: true
 language: Português
+
+genBtnText: "Dobrar meta!"
+
 text:
 - "Primeiro eu queria cumprimentar os internautas. -Oi Internautas!"
 - "Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável."

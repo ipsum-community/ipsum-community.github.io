@@ -8,6 +8,9 @@ site: "http://catipsum.com"
 author: sena
 collaborative: true
 language: English
+
+genBtnText: "Meoooow!"
+
 text:
 - "Mrow."
 - "Meowzer!"

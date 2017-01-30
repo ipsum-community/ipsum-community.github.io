@@ -7,6 +7,8 @@ description: "Entity errors list of the lovely SO"
 author: sena
 collaborative: true
 
+genBtnText: "Gerar erros!"
+
 language: English
 text:
 - "Incorrect function."
