@@ -7,7 +7,16 @@ description: "Entity errors list of the lovely SO"
 author: sena
 collaborative: true
 
+
+titleColor: "#0000AA"
+descColor: "#0000AA"
+genBtnTextColor: "#ffffff"
+genBtnBgColor: "#0000AA"
 genBtnText: "Gerar erros!"
+labelTextColor: "#ffffff"
+labelBgColor: "#0000AA"
+labelBorderColor: "#ffffff"
+
 
 language: English
 text:
