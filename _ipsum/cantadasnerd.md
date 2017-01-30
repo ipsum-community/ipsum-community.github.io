@@ -7,6 +7,19 @@ description: "Quem disse que nerd não dá cantada?"
 author: sena
 collaborative: true
 
+titleColor: "#ff0000"
+descColor: "#ff0000"
+
+genBtnBgColor: "#ff0000"
+genBtnTextColor: "#ffffff"
+
+labelTextColor: "#ff0000"
+labelBgColor: "#ffffff"
+labelBorderColor: "red"
+
+paragraphText: "Pretendentes"
+genBtnText: "Lançar xaveco."
+
 language: Português
 text:
 - Gata me chama de Jedi que te ensino a mexer no meu sabre de luz

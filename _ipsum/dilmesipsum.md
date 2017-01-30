@@ -9,7 +9,19 @@ author: sena
 collaborative: true
 language: Português
 
+
+titleColor: "#ff0000"
+descColor: "#ff0000"
+
+genBtnBgColor: "#ff0000"
+genBtnTextColor: "#ffffff"
+
+labelTextColor: "#ffffff"
+labelBgColor: "#ff0000"
+labelBorderColor: "#000000"
+
 genBtnText: "Dobrar meta!"
+paragraphText: "Metas"
 
 text:
 - "Primeiro eu queria cumprimentar os internautas. -Oi Internautas!"

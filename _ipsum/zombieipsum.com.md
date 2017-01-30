@@ -9,7 +9,18 @@ author: sena
 collaborative: true
 language: English
 
-genBtnText: "Cerebro!"
+titleColor: "#526646"
+descColor: "#526646"
+
+genBtnBgColor: "#7b9969"
+genBtnTextColor: "#ffffff"
+
+labelTextColor: "#ffffff"
+labelBgColor: "#526646"
+labelBorderColor: "#ffffff"
+
+genBtnText: "Eat"
+paragraphText: "Brain"
 
 text:
 - "Zombies reversus ab inferno, nam malum cerebro."

@@ -7,6 +7,20 @@ description: "Googoo ipsum goo. Googoo gaga gaga da gaagaa doo laa ga gaga laala
 author: sena
 collaborative: true
 language: Baby
+
+titleColor: "#ffaeae"
+descColor: "#b4d8e7"
+
+genBtnBgColor: "#56baec"
+genBtnTextColor: "#ffffff"
+
+labelTextColor: "#ffffff"
+labelBgColor: "#ffaeae"
+labelBorderColor: "#ffffff"
+
+genBtnText: "Eat"
+paragraphText: "Candys"
+
 text:
     - "Laalaa googoo da gaga dada ga goo ga doodoo gaga googoo doodoo ya."
     - "Caca laa da googoo da dada laa y."

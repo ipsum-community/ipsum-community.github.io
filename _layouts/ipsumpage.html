@@ -54,7 +54,7 @@
                                     </div>
                                     -->
                                     <div class="btn btn-default">
-                                        Paragraphs: <input id="paragraph-number-input" class="number-input"
+                                        {{ page.paragraphText | default: "Paragraphs"}}: <input id="paragraph-number-input" class="number-input"
                                                            type="number" min="1"
                                                            value="4">
                                     </div>

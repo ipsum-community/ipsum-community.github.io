@@ -1,7 +1,7 @@
 ---
 layout: ipsumpage
 
-title: DEV`s ipsum
+title: DEVs ipsum
 key: devipsum
 description: "Aquelas velhas frases prontas que todo desenvolvedor usa!"
 author: community
@@ -19,7 +19,8 @@ labelTextColor: "#ffffff"
 labelBgColor: "#000000"
 labelBorderColor: "#afafaf"
 
-
+paragraphText: "Cafés"
+genBtnText: "Virar noite!"
 
 language: Português
 text:

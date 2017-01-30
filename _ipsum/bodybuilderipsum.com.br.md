@@ -13,10 +13,13 @@ titleColor: "#FF6216"
 descColor: "#239F4D"
 genBtnTextColor: "#ffffff"
 genBtnBgColor: "#239F4D"
-genBtnText: "Vai porra!"
+
 labelTextColor: "#ffffff"
 labelBgColor: "#FF6216"
 labelBorderColor: "#239F4D"
+
+paragraphText: "Supinos"
+genBtnText: "Vai porra!"
 
 
 language: Português
