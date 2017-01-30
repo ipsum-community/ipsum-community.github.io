@@ -19,11 +19,15 @@ var Util = (function (_math, _doc) {
             return str.trim().split(/\s+/).length;
         },
         selectAndCopy: function (selector) {
+            var _return = false;
             var cutTextarea = typeof selector == 'string' ? _doc.querySelector(selector) : selector;
 
             cutTextarea.select();
+            _return = _doc.execCommand('copy');
 
-            return _doc.execCommand('copy');
+            cutTextarea.blur();
+
+            return _return;
         }
     }
 })(Math, document);
