@@ -2,7 +2,7 @@
 layout: ipsumpage
 
 title: Cliente Ipsum
-key: cliente
+key: clienteipsum
 description: "Dedicado aos nossos queridos clientes!"
 author: community
 collaborative: true
