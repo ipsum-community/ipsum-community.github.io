@@ -40,4 +40,9 @@ language:
     - "Só uma alteraçãozinha."
     - "Tem como fazer uma alteraçãozinha...?"
     - "Se você não cobrar nada, ou quase nada eu te dou uma porcentagem nos lucros."
+    - "Agora quero um relatório completo que cruze todas informações..."
+    - "Estou mandando 3 parcelas adiantadas..."
+    - "Aumenta aqui e diminui ali."
+    - "Se vocês virarem algumas noites dá para cumprir o prazo né?"
+    - "Boa tarde! Não esquece de fazer aquela alteração que te pedi."
 ---
