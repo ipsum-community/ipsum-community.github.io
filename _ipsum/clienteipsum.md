@@ -1,21 +1,21 @@
 ---
 layout: ipsumpage
 
-title: clienteipsum
+title: Cliente Ipsum
 key: cliente
 description: "Dedicado aos nossos queridos clientes!"
 author: community
 collaborative: true
 
 
-titleColor: "#FF6216"
-descColor: "#239F4D"
+titleColor: "#5ECAED"
+descColor: "#3B5998"
 genBtnTextColor: "#ffffff"
 genBtnBgColor: "#5ECAED"
-genBtnText: "É pouca coisa!"
+genBtnText: "É rapidinho!"
 labelTextColor: "#ffffff"
 labelBgColor: "#5ECAED"
-labelBorderColor: "#239F4D"
+labelBorderColor: "#3B5998"
 
 
 
