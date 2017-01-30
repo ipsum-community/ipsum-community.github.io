@@ -1,13 +1,27 @@
 ---
 layout: home
 ---
-
+{% assign i=0 %}
+<script type="text/javascript">
+    window.store = [];
+{% for ipsum in site.ipsum %}
+    window.store.push( {{ ipsum.title | jsonify}} );
+{% endfor %}
+</script>
 <div class="row">
     <div class="col-lg-12 text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="text" id="ipsum-search" placeholder="Search an Ipsum..."/>
+            </div>
+        </div>
         {% for ipsum in site.ipsum %}
         <a href="{{ipsum.url}}">
-            <span class="ipsum-name label-md ipsum-label" style="background-color: {{ ipsum.labelBgColor }}; color: {{ ipsum.labelTextColor }}; border-color: {{ ipsum.labelBorderColor }}">{{ ipsum.title }}</span>
+            <span class="ipsum-name label-md ipsum-label" name="{{ ipsum.title }}" style="background-color: {{ ipsum.labelBgColor }}; color: {{ ipsum.labelTextColor }}; border-color: {{ ipsum.labelBorderColor }}">{{ ipsum.title }}</span>
         </a>
         {% endfor %}
     </div>
 </div>
+
+<script src="/assets/js/IpsumSearch.js"></script>
+<script src="/assets/js/SearchListener.js"></script>
