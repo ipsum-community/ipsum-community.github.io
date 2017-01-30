@@ -51,4 +51,6 @@ language:
     - "É pra ontem, eim? hahahaha brincadeira. Mas é pra ontem mesmo."
     - "Achamos o preço um pouco fora do nosso orçamento."
     - "Ta faltando aquele Tchan!"
+    - "To avaliando uns orçamentos, mas já gostei muito do seu..."
+    - "Sempre funcionou deste jeito."
 ---
