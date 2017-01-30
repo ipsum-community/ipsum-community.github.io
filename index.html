@@ -15,11 +15,18 @@ layout: home
                 <input type="text" id="ipsum-search" placeholder="Search an Ipsum..."/>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12" id="ipsum-list">
         {% for ipsum in site.ipsum %}
         <a href="{{ipsum.url}}">
             <span class="ipsum-name label-md ipsum-label" name="{{ ipsum.title }}" style="background-color: {{ ipsum.labelBgColor }}; color: {{ ipsum.labelTextColor }}; border-color: {{ ipsum.labelBorderColor }}">{{ ipsum.title }}</span>
         </a>
         {% endfor %}
+                <div id="no-ipsum-match" class="hide">
+                    <p>No Ipsum found :(</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

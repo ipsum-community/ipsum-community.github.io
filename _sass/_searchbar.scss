@@ -13,3 +13,11 @@
   border-color: $default;
   border-width: 0px 0px 3px 0px;
 }
+
+#no-ipsum-match {
+  p {
+    font-size: 3em;
+    color: $default;
+    opacity: 0.5;
+  }
+}

@@ -22,11 +22,23 @@ var SearchListener = (function (_doc, _window, _ipsumSearch) {
         removeHideClass(allIpsums);
 
         ipsumMatches = _ipsumSearch.search(e.target.value);
+        showMessageIfHasNo(ipsumMatches);
 
         queryCombined = combineDenyingNamesInSelector('.ipsum-name', ipsumMatches);
 
         var elementsToHide = _doc.querySelectorAll(queryCombined);
         addHideClass(elementsToHide);
+    }
+
+    function showMessageIfHasNo(ipsumMatches) {
+        var ipsumNotMatch = _doc.getElementById('no-ipsum-match');
+        if (!ipsumMatches.length) {
+            ipsumNotMatch.classList.remove('hide');
+        } else {
+            if (!ipsumNotMatch.classList.contains('hide')) {
+                ipsumNotMatch.classList.add('hide');
+            }
+        }
     }
 
     function removeHideClass(el) {
