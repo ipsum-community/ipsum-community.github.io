@@ -2,7 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>All Ipsum - One place, all texts</title>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    {% seo %}
     <link href="https://fonts.googleapis.com/css?family=Chewy|Lato" rel="stylesheet">
     <script type="text/javascript">window.store = {{ page.language | jsonify }} </script>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -66,7 +68,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
-                            <textarea class="form-control" id="phrase-container" cols="30" rows="10"></textarea>
+                            <textarea class="form-control" id="phrase-container" cols="30" rows="10" readonly="readonly"></textarea>
                         </div>
                     </div>
                     <div class="row">
