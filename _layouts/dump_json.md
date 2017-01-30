@@ -4,10 +4,15 @@
 {% assign key = page.name | replace: '.json', '' %}
 {% assign ipsum = site.ipsum | where: 'key', key %}{% assign ipsum = ipsum[0] %}{
   "title": "{{ ipsum.title }}",
-  "key": "{{ ipsum.key }}",
   "description": "{{ ipsum.description }}",
-  "site": "{{ ipsum.site }}",
   "author": "{{ ipsum.author }}",
-  "collaborative": "{{ ipsum.collaborative }}",
-  "language": {{ ipsum.language | jsonify }}
+  "titleColor": "{{ ipsum.titleColor }}",
+  "descColor": "{{ ipsum.descColor }}",
+  "genBtnTextColor": "{{ ipsum.genBtnTextColor }}",
+  "genBtnBgColor": "{{ ipsum.genBtnBgColor }}",
+  "genBtnText": "{{ ipsum.genBtnText }}",
+  "labelTextColor": "{{ ipsum.labelTextColor }}",
+  "labelBgColor": "{{ ipsum.labelBgColor }}",
+  "labelBorderColor": "{{ ipsum.labelBorderColor }}",
+  "text": {{ ipsum.text | jsonify }}
 }
