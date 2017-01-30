@@ -5,8 +5,6 @@ title: DEVs ipsum
 key: devipsum
 description: "Aquelas velhas frases prontas que todo desenvolvedor usa!"
 author: community
-collaborative: true
-
 
 titleColor: "#000000"
 descColor: "#3B5998"

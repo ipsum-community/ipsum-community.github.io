@@ -5,8 +5,6 @@ title: Cliente Ipsum
 key: clienteipsum
 description: "Dedicado aos nossos queridos clientes!"
 author: community
-collaborative: true
-
 
 titleColor: "#5ECAED"
 descColor: "#3B5998"

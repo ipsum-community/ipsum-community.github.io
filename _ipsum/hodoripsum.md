@@ -5,7 +5,6 @@ title: HodorIpsum
 key: hodoripsum
 description: "Hodor hodor hodor"
 author: sena
-collaborative: true
 
 paragraphText: "Doors"
 genBtnText: "Hodor!"

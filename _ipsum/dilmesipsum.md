@@ -6,7 +6,7 @@ key: dilma
 description: "Dilmes Ipsum, mais parágrafos, mais rapidez e mais asneiras da nossa presidentA!"
 site: "http://www.dilmesipsum.com.br/"
 author: sena
-collaborative: true
+
 language: Português
 
 

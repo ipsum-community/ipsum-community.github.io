@@ -5,7 +5,6 @@ title: Cantadas Nerds
 key: cantadasnerd
 description: "Quem disse que nerd não dá cantada?"
 author: sena
-collaborative: true
 
 titleColor: "#ff0000"
 descColor: "#ff0000"

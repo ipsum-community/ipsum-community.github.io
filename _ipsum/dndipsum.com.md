@@ -6,7 +6,7 @@ key: dndipsum.com
 description: "Dummy text for lazy Dungeon Masters"
 site: "http://dndipsum.com"
 author: sena
-collaborative: true
+
 language: English
 text:
 - "Balance domain bolster undead comatose fine healing subschool improved grab necromancy nonabilities off hand overlap."

@@ -6,7 +6,6 @@ key: batmanipsum
 description: "Generate random text using Batman movies punchlines"
 site: "http://batman-ipsum.com"
 author: sena
-collaborative: true
 
 titleColor: "#FDE718"
 descColor: "#000000"

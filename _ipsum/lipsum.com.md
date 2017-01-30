@@ -7,7 +7,7 @@ description: "Lorem Ipsum is simply dummy text of the printing and typesetting i
 site: "http://lipsum.com/"
 author: sena
 start_with: "Lorem ipsum dolor sit amet"
-collaborative: true
+
 language: latin
 text:
 - Nulla facilisi.

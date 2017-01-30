@@ -5,7 +5,6 @@ title: Baby ipsum
 key: babyipsum
 description: "Googoo ipsum goo. Googoo gaga gaga da gaagaa doo laa ga gaga laalaa gaga goo. Doo doo yaya goo googoo ga da googoo da."
 author: sena
-collaborative: true
 language: Baby
 
 titleColor: "#ffaeae"

@@ -6,7 +6,7 @@ key: itcrowdipsum
 description: "Placeholder text taken from The IT Crowd"
 site: "http://itcrowdipsum.com/"
 author: sena
-collaborative: true
+
 language: English
 text:
 - "Hello?"

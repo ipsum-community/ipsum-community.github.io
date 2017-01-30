@@ -6,7 +6,6 @@ key: bodybuilderipsum.com.br
 description: "Aqui é Body Builder Ipsum PORRA!"
 site: "http://bodybuilderipsum.com.br"
 author: sena
-collaborative: true
 
 
 titleColor: "#FF6216"

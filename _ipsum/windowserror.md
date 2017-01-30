@@ -5,7 +5,6 @@ title: Windows errors
 key: windowserror
 description: "Entity errors list of the lovely SO"
 author: sena
-collaborative: true
 
 titleColor: "#0000AA"
 descColor: "#0000AA"

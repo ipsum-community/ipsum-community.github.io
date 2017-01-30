@@ -6,7 +6,7 @@ key: catipsum.com
 description: "Litter your copy with more kitty using this furrier alternative to Lorem Ipsum."
 site: "http://catipsum.com"
 author: sena
-collaborative: true
+
 language: English
 
 genBtnText: "Meoooow!"

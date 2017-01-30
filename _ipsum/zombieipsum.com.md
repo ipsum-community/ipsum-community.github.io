@@ -6,7 +6,7 @@ key: zombieipsum
 description: "Frightful filler for your damned designs. Use as substitute for lorem ipsum for your most gruesome graphics. Sprinkle liberally with extra brains."
 site: "http://zombieipsum.com/"
 author: sena
-collaborative: true
+
 language: English
 
 titleColor: "#526646"
