@@ -63,3 +63,11 @@
 #phrase-container[readonly] {
   background-color: transparent;
 }
+
+#ipsum-alert{
+  p{
+    color: $green;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+}

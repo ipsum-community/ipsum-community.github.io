@@ -1,5 +1,5 @@
 "use strict"
-var IpsumListener = (function (_doc, _window, _ipsumGen) {
+var IpsumListener = (function (_doc, _ipsumGen) {
 
     var _formGenerator = _doc.getElementById('form-generate'),
         _paragNumInput = _doc.getElementById('paragraph-number-input'),
@@ -12,10 +12,9 @@ var IpsumListener = (function (_doc, _window, _ipsumGen) {
 
 
     function onSubmit(e) {
-        var start = _startWith && _startWith.checked ? _startWith.value : undefined;
-        console.log(start);
         e.preventDefault();
+        var start = _startWith && _startWith.checked ? _startWith.value : undefined;
         _ipsumGen.genIpsum(_paragNumInput.value, start);
     }
 
-})(document, window, IpsumGenerator);
+})(document, IpsumGenerator);

@@ -32,7 +32,8 @@ var IpsumGenerator = (function (_doc, _window, _util) {
 
             addToContainer(paragraph + '\n\n');
         }
-        _util.selectAndCopy(_container)
+        _util.selectAndCopy(_container);
+        _util.createAlert('Text copied!');
     }
 
     return {

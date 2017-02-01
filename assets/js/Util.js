@@ -1,6 +1,5 @@
 "use strict"
 var Util = (function (_math, _doc) {
-
     return {
         capitalizeFirstLetter: function (string) {
             return string.charAt(0).toUpperCase() + string.slice(1);
@@ -28,6 +27,18 @@ var Util = (function (_math, _doc) {
             cutTextarea.blur();
 
             return _return;
+        },
+        createAlert: function (text) {
+            var ipsumContainer = _doc.getElementById('generator-container'),
+                div = _doc.createElement('div'),
+                p = _doc.createElement('p');
+            div.setAttribute('id', 'ipsum-alert');
+            p.innerHTML = text;
+            div.appendChild(p);
+            ipsumContainer.appendChild(div);
+            setTimeout(function () {
+                div.remove();
+            }, 4000);
         }
     }
 })(Math, document);
