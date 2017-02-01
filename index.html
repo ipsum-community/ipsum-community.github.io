@@ -3,9 +3,9 @@ layout: home
 ---
 {% assign i=0 %}
 <script type="text/javascript">
-    window.store = [];
+    window.ipsums = [];
 {% for ipsum in site.ipsum %}
-    window.store.push( {{ ipsum.title | jsonify}} );
+    window.ipsums.push( {{ ipsum.title | jsonify}} );
 {% endfor %}
 </script>
 <div class="row">
@@ -30,5 +30,6 @@ layout: home
     </div>
 </div>
 
-<script src="/assets/js/IpsumSearch.js"></script>
-<script src="/assets/js/SearchListener.js"></script>
+<script src="/assets/js/search/Elements.js"></script>
+<script src="/assets/js/search/Search.js"></script>
+<script src="/assets/js/search/Listener.js"></script>

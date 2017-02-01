@@ -1,7 +1,7 @@
 "use strict"
-var IpsumSearch = (function (_doc, _window) {
+var Search = (function (_window) {
 
-    var _ipsums = _window.store;
+    var _ipsums = _window.ipsums;
 
     return {
         search: function (title) {
@@ -17,4 +17,4 @@ var IpsumSearch = (function (_doc, _window) {
             return matches;
         }
     };
-})(document, window);
+})(window);
