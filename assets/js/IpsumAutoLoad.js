@@ -1,8 +1,7 @@
 "use strict"
 var IpsumAutoLoad = (function (_doc, _window, _ipsumGen) {
 
-    var _paragNumInput = _doc.getElementById('paragraph-number-input');
-
-    _ipsumGen.genIpsum(_paragNumInput.value);
+    var _btnGenerate = _doc.getElementById('btn-generate');
+    _btnGenerate.click();
 
 })(document, window, IpsumGenerator);
