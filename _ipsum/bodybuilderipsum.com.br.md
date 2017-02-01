@@ -5,6 +5,10 @@ title: BodyBuilder Ipsum
 key: bodybuilderipsum.com.br
 description: "Aqui é Body Builder Ipsum PORRA!"
 site: "http://bodybuilderipsum.com.br"
+
+start_with: "Aqui é Body Builder Ipsum PORRA!"
+start_with_label: "Começar a parada com"
+
 author: sena
 
 

@@ -11,10 +11,14 @@ var IpsumGenerator = (function (_doc, _window, _util) {
         _container.value += paragraph;
     }
 
-    function generateIpsum(numberOfParagraphs) {
+    function generateIpsum(numberOfParagraphs, start) {
         var i, words, numberOfWordInParag, paragraph;
 
         clearContainer();
+
+        if(start) {
+            addToContainer(start);
+        }
         for (i = 0; i < numberOfParagraphs; i++) {
             paragraph = '';
             words = 0;
@@ -32,9 +36,9 @@ var IpsumGenerator = (function (_doc, _window, _util) {
     }
 
     return {
-        genIpsum: function (number) {
+        genIpsum: function (number, start) {
             number = number || 1;
-            generateIpsum(number);
+            generateIpsum(number, start);
         }
     }
 })(document, window, Util);

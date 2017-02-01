@@ -43,8 +43,16 @@
                                     {% endfor %}
                                 </select>
                             </div>
-                            <div class="btn-group pull-right" role="group">
-                                <form action="" id="form-generate">
+                            <form action="" id="form-generate">
+                                <div class="text-right">
+                                    {% if page.start_with %}
+                                    <label for="start-with" class="start-with">
+                                        <input id="start-with" type="checkbox" value="{{ page.start_with}}" checked="checked">
+                                        {{ page.start_with_label | default: "Start with"}}: {{ page.start_with}}...
+                                    </label>
+                                    {% endif %}
+                                </div>
+                                <div class="btn-group pull-right" role="group">
                                     <!--
                                     <div class="btn btn-default">
                                         Chars: <input class="number-input" type="number" min="1" value="">
@@ -53,17 +61,17 @@
                                         Words: <input class="number-input" type="number" min="1" value="">
                                     </div>
                                     -->
-                                    <div class="btn btn-default">
-                                        {{ page.paragraphText | default: "Paragraphs"}}: <input id="paragraph-number-input" class="number-input"
-                                                           type="number" min="1"
-                                                           value="4">
-                                    </div>
+                                    <label class="btn btn-default">
+                                        {{ page.paragraphText | default: "Paragraphs"}}:
+                                        <input id="paragraph-number-input" class="number-input"
+                                               type="number" min="1" value="4">
+                                    </label>
                                     <button type="submit" id="btn-generate" class="btn"
                                             style="background-color: {{ page.genBtnBgColor }}; color: {{ page.genBtnTextColor }}">
                                         {{ page.genBtnText | default: "Lets Go!"}}
                                     </button>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="row">
