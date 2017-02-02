@@ -112,7 +112,7 @@ text:
 - "comenta esse teste que o build passa."
 - "tem ser responsivo e tal pq isso e aquilo da modernidade."
 - "responsividade de c* é r***. Tá rodando."
-- "cara, não é "só um botão". Deixa eu te explicar..."
+- "cara, não é \"só um botão\". Deixa eu te explicar..."
 - "não sei como estimar isso."
 - "dá um force refresh que deve funcionar."
 - "isso aqui é a gambs que faz funcionar mas nem comentei pq é facil entender."
