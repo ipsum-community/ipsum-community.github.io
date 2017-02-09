@@ -13,7 +13,7 @@ genBtnBgColor: "#000000"
 genBtnText: "Build"
 genBtnTextColor: "#ffffff"
 
-labelTextColor: "#ffffff"
+labelTextColor: "#888888"
 labelBgColor: "#000000"
 labelBorderColor: "#afafaf"
 

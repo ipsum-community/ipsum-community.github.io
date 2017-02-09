@@ -12,7 +12,7 @@ descColor: "#3B5998"
 genBtnBgColor: "#5ECAED"
 genBtnTextColor: "#ffffff"
 
-labelTextColor: "#ffffff"
+labelTextColor: "#5ECAED"
 labelBgColor: "#5ECAED"
 labelBorderColor: "#3B5998"
 

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "jekyll serve --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,5 @@
   "bugs": {
     "url": "https://github.com/allipsum/allipsum.github.io/issues"
   },
-  "homepage": "https://github.com/allipsum/allipsum.github.io#readme",
+  "homepage": "https://github.com/allipsum/allipsum.github.io#readme"
 }
