@@ -21,13 +21,13 @@ var Listener = (function (_ipsumSearch, _el) {
         e.preventDefault();
         var allIpsums, ipsumMatches;
 
-        allIpsums = _el.getAllElementsByClass("ipsum-name");
+        allIpsums = _el.getAllElementsByClass("ipsum-label-container");
         _el.removeHideClassTo(allIpsums);
 
         ipsumMatches = _ipsumSearch.search(e.target.value);
         _el.showMessageIfHasNo(ipsumMatches);
 
-        var elementsToHide = _el.getAllInSelectorExcept('.ipsum-name', ipsumMatches);
+        var elementsToHide = _el.getAllInSelectorExcept('.ipsum-label-container', ipsumMatches);
         _el.addHideClassTo(elementsToHide);
     }
 

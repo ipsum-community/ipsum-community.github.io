@@ -19,8 +19,8 @@ layout: home
             <div class="col-lg-12" id="ipsum-list">
         {% for ipsum in site.ipsum %}
         <a href="{{ipsum.url}}">
-            <div class="ipsum-label-container">
-                <span class="ipsum-name label-lg" name="{{ ipsum.title }}" style="color: {{ ipsum.labelTextColor }};">{{ ipsum.title }}</span>
+            <div class="ipsum-label-container" name="{{ ipsum.title }}">
+                <span class="ipsum-name label-lg"  style="color: {{ ipsum.labelTextColor }};">{{ ipsum.title }}</span>
                 <div class="ipsum-label-line " style="background-color: {{ ipsum.labelBgColor }};"></div>
             </div>
         </a>
