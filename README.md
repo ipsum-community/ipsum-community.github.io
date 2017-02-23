@@ -36,6 +36,65 @@ jekyll serve --watch
 ```
 The watcher will built everything, after each change :)
 
+### Creating your Ipsum!
+
+* Step 1 - Create
+  * In _ipsum folder (collection)
+  * Create a .md file named by your ipsum
+* Step 2 - Layout
+  * The default layout of a ipsum file is:
+  ```markdown
+  
+    ---
+    # Never modify this Liquid layout 
+    layout: ipsumpage
+    
+    # Change the title to show in your ipsum page, here
+    title: Lorem Ipsum
+  
+    # Change the keys for SEO, here
+    key: lorem, ipsum, community, generator
+    
+    # Change the description to show in your ipsum page, here
+    description: "Lorem Ipsum is what you want!"
+    
+    # If you want to put your name like author
+    author: Ipsum Community
+  
+    # If you get this ipsum from a site, modify the url
+    site: "https://ipsum-community.github.io"
+    
+    # If you want a button element, to choose for start with add this
+    start_with: "Lorem ipsum dolor sit amet"
+
+    # Please modify the colors and texts for what you want
+    # Every element has a default color and text, so if you omit one, no problem!    
+    titleColor: "#EE3829"
+    descColor: "#afb3c9"
+    genBtnTextColor: "#000000"
+    genBtnBgColor: "#F3F7F8"
+    genBtnText: "Lets Do It!"
+    labelTextColor: "#EE3829"
+    labelBgColor: "#F3F7F8"
+    labelBorderColor: "#d62020"
+    
+    #Hey choose the language of your ipsum for a more complex search later
+    language: English
+    
+    text:
+    
+    #Here we go with your ipsum
+    # Write it like below, with - to start a phrase, and the text into Double Quotes
+    - "Nulla facilisi."
+    - "Nam ut est dui."
+    - "Ut eu eros est."
+    - "Ut et elit arcu."
+    - "Sed non mi quam."
+  
+    ---
+  
+  ```
+
 
 ## Built With
 
