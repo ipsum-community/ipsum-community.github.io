@@ -94,8 +94,21 @@ The watcher will built everything, after each change :)
     ---
   
   ```
+* Step 3 - For create a JSON
+  * Add a new file with the SAME name of your new Ipsum, into the JSON folder
+  * After that add this code to the file:
+  
+  ```markdown
+  
+  ---
+  layout: dump_json
+  ---
 
-
+  ```
+  * This will generate a json file when Jekyll compiling finish 
+  * https://ipsum-community.github.io/json/youripsum.json 
+  * To get your JSON change the name [youripsum] to your new ipsum name
+  
 ## Built With
 
 * [Jekyll](https://jekyllrb.com/) - The web framework for generate static pages
