@@ -78,13 +78,13 @@ The watcher will built everything, after each change :)
     labelBgColor: "#F3F7F8"
     labelBorderColor: "#d62020"
     
-    #Hey choose the language of your ipsum for a more complex search later
+    # Hey choose the language of your ipsum for a more complex search later
     language: English
     
     text:
     
-    #Here we go with your ipsum
-    # Write it like below, with - to start a phrase, and the text into Double Quotes
+    # Here you will set the ipsum phrases
+    # Write it like below, with - to start a phrase, and that phrase put into Double Quotes
     - "Nulla facilisi."
     - "Nam ut est dui."
     - "Ut eu eros est."
