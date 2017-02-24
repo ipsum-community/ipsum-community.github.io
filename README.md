@@ -57,13 +57,13 @@ The watcher will built everything, after each change :)
     # Change the title to show in your ipsum page, here
     title: Lorem Ipsum
   
-    # Change the keys for SEO, here
-    key: lorem, ipsum, community, generator
+    # Use the ipsum filename without extension (.md)
+    key: ipsum_name
     
     # Change the description to show in your ipsum page, here
     description: "Lorem Ipsum is what you want!"
     
-    # If you want to put your name like author
+    # If you want, put your name like author
     author: Ipsum Community
   
     # If you get this ipsum from a site, modify the url
