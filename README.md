@@ -34,6 +34,11 @@ If you need a watcher:
 ```sh
 jekyll serve --watch
 ```
+Or use npm command:
+```sh
+npm start
+```
+
 The watcher will built everything, after each change :)
 
 ### Creating your Ipsum!
@@ -126,7 +131,7 @@ See also the list of [contributors](https://github.com/ipsum-community/ipsum-com
 
 ## License
 
-Working on it...
+**MIT**
 
 
 ## Acknowledgments
