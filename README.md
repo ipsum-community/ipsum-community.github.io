@@ -48,7 +48,7 @@ The watcher will built everything, after each change :)
   * Create a .md file named by your ipsum
 * Step 2 - Layout
   * The default layout of a ipsum file is:
-  ```markdown
+  ```Markdown
   
     ---
     # Never modify this Liquid layout 
