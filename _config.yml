@@ -19,4 +19,4 @@ sass:
 collections:
   ipsum:
     output: true
-    permalink: /:path
+    permalink: /:path/
