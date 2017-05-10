@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ipsum-community/ipsum-community.github.io.svg?branch=master)](https://travis-ci.org/ipsum-community/ipsum-community.github.io)
+
 # Ipsum Community
 
 One place, all texts, powered by everyone
