@@ -2,20 +2,20 @@
 layout: ipsumpage
 
 title: Shakespeare Ipsum
-key: arnoldschwarzenegger
+key: shakespeare
 description: "To ipsum or not to ipsum. What happens when you combine all phrases from William Shakespeare's greates monoloques? When you need some more art or creativity in your website dummy texts, then Shakespeare Ipsum is for you."
 author: Steven K
 
 start_with: "to be, or not to be, thats the question"
 
-titleColor: "#EE3829"
-descColor: "#afb3c9"
+titleColor: "#2f64eb"
+descColor: "##120385"
 genBtnTextColor: "#000000"
-genBtnBgColor: "#F3F7F8"
-genBtnText: "Lets Do It!"
-labelTextColor: "#EE3829"
-labelBgColor: "#F3F7F8"
-labelBorderColor: "#d62020"
+genBtnBgColor: "#2f64eb"
+genBtnText: "Start the show!"
+labelTextColor: "#3b0385"
+labelBgColor: "#28d0ed"
+labelBorderColor: "#036273"
 
 # Source: http://shakespeare.mit.edu/
 
