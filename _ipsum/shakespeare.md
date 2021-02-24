@@ -3,7 +3,7 @@ layout: ipsumpage
 
 title: Shakespeare Ipsum
 key: shakespeare
-description: "To ipsum or not to ipsum. What happens when you combine all phrases from William Shakespeare's most famous monoloques? When you need some more art or creativity in your website dummy texts, then Shakespeare Ipsum is for you."
+description: "To ipsum or not to ipsum. What happens when you combine all phrases from William Shakespeare's most famous monologues? When you need some more art or creativity in your website dummy texts, then Shakespeare Ipsum is for you."
 author: Steven K
 
 start_with: "to be, or not to be, thats the question"
